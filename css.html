@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .flex {
+            display: flex;
+            width: 340px;
+            height: 400px;
+            padding: 5px;
+            background-color: red;
+            /* flex-direction: column;
+            flex-wrap: wrap; */
+            flex-flow: row wrap;
+            justify-content: space-around;
+            /* align-items: baseline; */
+            /* align-content: stretch; */
+        }
+
+        .item {
+            width: 50px;
+            height: 50px;
+            /* flex: 1; */
+            /* flex: 0; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: yellow;
+            margin: 5px;
+        }
+
+        .flex-2 {
+            width: 100px;
+            height: 100px;
+            /* flex:0 0 2; */
+            flex-grow: 2;
+            /* flex-shrink: 1;
+            flex-basis: 0%; */
+            background-color: darkgray;
+        }
+
+        .align-self {
+            align-self: flex-end;
+        }
+
+        .order {
+            order: -1;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+
+    <div class='flex'>
+        <div class="item flex-2">1</div>
+        <div class="item ">2</div>
+        <div class="item align-self">3</div>
+        <div class="item order">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+        <div class="item">10</div>
+        <div class="item">11</div>
+        <div class="item">12</div>
+        <div class="item">13</div>
+        <div class="item">14</div>
+        <div class="item">15</div>
+        <div class="item">16</div>
+        <div class="item">16</div>
+        <div class="item">16</div>
+        <div class="item">16</div>
+        <div class="item">16</div>
+        <div class="item">16</div>
+        <div class="item">16</div>
+        <div class="item">16</div>
+        <div class="item">16</div>
+        <div class="item">9999</div>
+    </div>
+
+
+
+
+</body>
+
+</html>
